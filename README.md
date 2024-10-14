@@ -1,7 +1,8 @@
 # Twitter Data set for Arabic Sentiment Analysis
 
 ## Description
-Ce projet est une proposition de solution au Twitter Data set for Arabic Sentiment Analysis. Le descriptif du data set est disponible ici : https://archive.ics.uci.edu/dataset/293/twitter+data+set+for+arabic+sentiment+analysis 
+Ce projet est une proposition de solution au Twitter Data set for Arabic Sentiment Analysis. Le descriptif du data set est disponible ici : https://archive.ics.uci.edu/dataset/293/twitter+data+set+for+arabic+sentiment+analysis  
+
 L'objectif est de mettre en œuvre différentes méthodes de Machine Learning et Deep Learning pour effectuer une prédiction.
 
 ## Table des Matières
