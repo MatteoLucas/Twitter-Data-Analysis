@@ -31,13 +31,10 @@ if hasattr(X_train, 'toarray'):
 # Définir les modèles de base (Gradient Boosting et SVM)
 gb_model = GradientBoostingClassifier(learning_rate=0.1, max_depth=4, n_estimators=500)
 svm_model = SVC(C=1.1, gamma='scale', kernel='rbf')
-knn_model = KNeighborsClassifier(metric='euclidean', n_neighbors=100, weights='distance')
 
 # Définir plusieurs méta-modèles à tester
 meta_models = {
-    'LogisticRegression': LogisticRegression(),
-    #'RandomForestClassifier': RandomForestClassifier(),
-    #'DecisionTreeClassifier': DecisionTreeClassifier(),
+    'LogisticRegression': LogisticRegression()
 }
 
 # Tester les différents méta-modèles avec GridSearchCV pour ajuster les hyperparamètres

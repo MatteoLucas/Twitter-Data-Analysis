@@ -64,11 +64,11 @@ Le tableau ci-dessous regroupe les scores obtenus par nos différents modèles l
 
 | Modèle | Abréviation | Score lors de la soumission |
 |-----------|-----------|-----------|
-| Support Vector Machine  | svm  | xxx |
-| Random Forest | rf | xxx |
-| Gradient Boosting | gb | xxx |
-| Réseau de neurones simple  | rn  | xxx  |
-| K plus proches voisins | knn | xxx |  
+| Support Vector Machine  | svm  | 0.765 |
+| Random Forest | rf | 0.74 |
+| Gradient Boosting | gb | 0.78 |
+| Réseau de neurones simple  | rn  | 0.755  |
+| K plus proches voisins | knn | 0.725 |  
 
 Nous avons aussi commencé à implémenter une méthode basée sur le modèle BERT et une basée sur les CNN, mais nous avons été limités par nos capacités d'entraînement. Le travail en cours est disponible sur les branches éponymes.
 

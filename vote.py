@@ -28,7 +28,7 @@ def majority_vote(models):
         model_name+=model+"+"
     model_name = model[:-1]
 
-    print("Accuracy : ", accuracy_score(Y_test, Y_pred))
+    print("Accuracy du vote : ", accuracy_score(Y_test, Y_pred))
     TP.save_predictions_to_csv(Y_final_pred, "Y_pred_"+model_name+".csv", X_train)
 
     return Y_final_pred
@@ -38,5 +38,6 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("list", nargs='+', type=str, help="Une liste de chaînes de caractères à passer à la fonction")
     args = parser.parse_args()
-    list_model= args.list[:-1]
+    list_model= args.list[:]
+    print(list_model)
     majority_vote(list_model)

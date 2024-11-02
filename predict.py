@@ -17,6 +17,9 @@ def predict(model_name):
     
     print("Predicting ...")
     
+    if model_name=="nb":
+        X_test = X_test.toarray()
+
     # Prédiction et évaluation
     Y_pred = model.predict(X_test)
 
