@@ -12,8 +12,8 @@ L'objectif est de mettre en œuvre différentes méthodes de Machine Learning et
 - [Auteurs](#auteurs)
 
 ## Installation
-1. Clonez le dépôt : `git clone XXX`  
-2. Allez dans le répertoire du projet : `cd XXX`  
+1. Clonez le dépôt : `git clone https://github.com/MatteoLucas/Twitter-Data-set-for-Arabic-Sentiment-Analysis.git`  
+2. Allez dans le répertoire du projet : `cd Twitter-Data-set-for-Arabic-Sentiment-Analysis`  
 3. Installez les dépendances : `npm install` ou `pip install -r requirements.txt`  
 
 ## Usage
